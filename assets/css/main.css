@@ -1,0 +1,43 @@
+ body {
+  background-image: url("/assets/img/pattern.png");
+  background-repeat: repeat;
+  height: 100%;
+}
+
+@font-face {
+  font-family: gilroy-light;
+  src: url('/assets/fonts/Gilroy-Light.otf');
+}
+
+@font-face {
+  font-family: gilroy-extra-bold;
+  src: url('/assets/fonts/Gilroy-ExtraBold.otf');
+}
+
+
+.main{
+    height: 35rem;
+    width: 50%;
+    background-color: #ddd;
+    box-shadow: 5px 5px 15px #666;
+    margin: 8em auto;
+    text-align: center;
+}
+
+.main-logo{
+    margin-top:2em;
+}
+
+.main-text{
+    color:white;
+    text-shadow: 2px 2px 3px #888;
+    font-family: gilroy-light;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
