@@ -1,3 +1,25 @@
+ @media screen and (min-width: 601px) {
+  .main{
+      height: 35rem;
+      width: 50%;
+      background-color: #ddd;
+      box-shadow: 5px 5px 15px #666;
+      margin: 8em auto;
+      text-align: center;
+  }
+}
+ 
+ @media screen and (max-width: 600px) {
+  .main{
+      height: 35rem;
+      width: 95%;
+      background-color: #ddd;
+      box-shadow: 5px 5px 15px #666;
+      margin: 3em auto;
+      text-align: center;
+  }
+}
+ 
  body {
   background-image: url("/assets/img/pattern.png");
   background-repeat: repeat;
@@ -15,14 +37,7 @@
 }
 
 
-.main{
-    height: 35rem;
-    width: 50%;
-    background-color: #ddd;
-    box-shadow: 5px 5px 15px #666;
-    margin: 8em auto;
-    text-align: center;
-}
+
 
 .main-logo{
     margin-top:2em;
